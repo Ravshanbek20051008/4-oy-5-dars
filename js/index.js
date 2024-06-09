@@ -1,11 +1,11 @@
 // break/continue ga oid masallar
 // 1-masala
-for (let i = 1; i <= 50; i++) {
-  if (i > 30) {
-    break;
-  }
-  console.log(i);
-}
+// for (let i = 1; i <= 50; i++) {
+//   if (i > 30) {
+//     break;
+//   }
+//   console.log(i);
+// }
 // 2-masala
 // for (let i = 1; i <= 50; i++) {
 //   if (i % 5 !== 0) {
@@ -154,6 +154,7 @@ for (let i = 1; i <= 50; i++) {
 // } while (i < 10);
 
 // for ga doir masalalar
+// 1-masla
 // for (let i = 1; i < 50; i++) {
 //   if (i % 5 == 0) {
 //     console.log(i + "  5 ga karrali");
@@ -167,3 +168,58 @@ for (let i = 1; i <= 50; i++) {
 //   console.log(i);
 //   i++;
 // }
+
+// 2-masala
+// for (let i = 1; i < 12; i++) {
+//   switch (i) {
+//     case 1:
+//       console.log("Yanvar");
+//       break;
+//     case 2:
+//       console.log("Fevral");
+//       break;
+//     case 3:
+//       console.log("Mart");
+//       break;
+//     case 4:
+//       console.log("Aprel");
+//       break;
+//     case 5:
+//       console.log("May");
+//       break;
+//     case 6:
+//       console.log("Iyun");
+//       break;
+//     case 7:
+//       console.log("Iyul");
+//       break;
+//     case 8:
+//       console.log("Avgust");
+//       break;
+//     case 9:
+//       console.log("Sentabr");
+//       break;
+//     case 10:
+//       console.log("Oktabr");
+//       break;
+//     case 11:
+//       console.log("Noyabr");
+//       break;
+//     case 12:
+//       console.log("Dekabr");
+//       break;
+//   }
+//   console.log(i);
+// }
+// 3-masala
+let i = 1;
+while (i >= 100) {
+  if (i % 2 == 0) {
+    continue;
+  }
+  if (i == 77) {
+    break;
+  }
+  console.log(i);
+  i++;
+}
