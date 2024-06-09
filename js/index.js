@@ -1,11 +1,11 @@
 // break/continue ga oid masallar
 // 1-masala
-// for (let i = 1; i <= 50; i++) {
-//   if (i > 30) {
-//     break;
-//   }
-//   console.log(i);
-// }
+for (let i = 1; i <= 50; i++) {
+  if (i > 30) {
+    break;
+  }
+  console.log(i);
+}
 // 2-masala
 // for (let i = 1; i <= 50; i++) {
 //   if (i % 5 !== 0) {
@@ -154,16 +154,16 @@
 // } while (i < 10);
 
 // for ga doir masalalar
-for (let i = 1; i < 50; i++) {
-  if (i % 5 == 0) {
-    console.log(i + "  5 ga karrali");
-  }
-  if (i % 7 == 0) {
-    console.log(i + " 7 ga karrali");
-  }
-  if (i % 5 == 0 && i % 7 == 0) {
-    console.log(i + " 5 va 7 ga karrali");
-  }
-  console.log(i);
-  i++;
-}
+// for (let i = 1; i < 50; i++) {
+//   if (i % 5 == 0) {
+//     console.log(i + "  5 ga karrali");
+//   }
+//   if (i % 7 == 0) {
+//     console.log(i + " 7 ga karrali");
+//   }
+//   if (i % 5 == 0 && i % 7 == 0) {
+//     console.log(i + " 5 va 7 ga karrali");
+//   }
+//   console.log(i);
+//   i++;
+// }
